@@ -1,0 +1,42 @@
+------------POST-----------
+http://127.0.0.1:5000/Jogo
+---------------------------
+
+Body - raw - JSON
+
+{
+  "titulo": "Uncharted 4: A Thief's End",
+  "genero": "Ação e Aventura",
+  "desenvolvedor": "Naughty Dog",
+  "plataforma": "PS4/PS5"
+}
+{
+  "titulo": "God of War Ragnarök",
+  "genero": "Ação e Aventura",
+  "desenvolvedor": "Santa Monica Studio",
+  "plataforma": "PS4/PS5 e Steam"
+}
+{
+  "titulo": "LEGO Batman Legacy of the Dark Knight",
+  "genero": "Ação e Aventura",
+  "desenvolvedor": "TT Games",
+  "plataforma": "PS5, Xbox X/S, Nintendo Switch 2 e Steam"
+}
+{
+  "titulo": "Minecraft",
+  "genero": "Exploração",
+  "desenvolvedor": "Mojang Studios",
+  "plataforma": "TODAS"
+}
+{
+  "titulo": "Hollow Knight",
+  "genero": "Metroidvania",
+  "desenvolvedor": "Team Cherry",
+  "plataforma": "TODAS"
+}
+
+
+------------GET------------
+http://127.0.0.1:5000/Jogo
+http://127.0.0.1:5000/Jogo/1
+---------------------------
